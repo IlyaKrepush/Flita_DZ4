@@ -64,4 +64,3 @@ unsigned long long GenNat_64(MT19937_64* mt){
 double GenReal_64(MT19937_64* mt){
     return (double)(GenNat_64(mt) >> 11) *(1.0/9007199254740991.0) ;
 }
-int main(void){}
